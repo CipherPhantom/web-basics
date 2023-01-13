@@ -1,3 +1,3 @@
 # web-basics
-Back to basics
-Simple and Sweet
+Back to basics.
+Simple and Sweet.
