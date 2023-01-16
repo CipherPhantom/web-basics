@@ -1,0 +1,13 @@
+.grid-div {
+    display: grid;
+    grid-template-columns: 200px 75px;
+    font-size: 20px;
+}
+
+.div1 {
+    background-color: lightblue;
+}
+
+.div2 {
+    background-color: lightpink;
+}
