@@ -1,0 +1,36 @@
+input {
+    display: block;
+    padding: 16px 20px;
+    width: 320px;
+    background-color: rgb(245, 245, 245);
+    border: none;
+}
+
+button {
+    border: none;
+    padding: 14px 20px;
+}
+
+.request-ride-text {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.location-box {
+    margin-bottom: 8px;
+}
+
+.destination-box {
+    margin-bottom: 35px;
+}
+
+.request-button {
+    color: white;
+    background-color: black;
+    margin-right: 15px;
+}
+
+.schedule-button {
+    color: black;
+    background-color: rgb(245, 245, 245);
+}
