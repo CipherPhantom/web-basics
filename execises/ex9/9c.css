@@ -1,0 +1,13 @@
+div {
+    padding:  0 120px 25px 20px;
+    border: 1px solid;
+    display: inline-block;
+} 
+
+p {
+    font-size: 20px;
+}
+
+button {
+    font-size: 16px;
+}

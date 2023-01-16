@@ -1,0 +1,18 @@
+
+div {
+    text-align: center;
+}
+
+.google-image {
+    width: 200px;
+    margin: 100px auto  10px;
+}
+
+.search-bar {
+    width: 500px;
+    border: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
