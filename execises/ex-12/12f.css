@@ -1,0 +1,38 @@
+div {
+    font-family: Arial;
+    color: white;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(120, 82, 178);
+    align-items: center;
+    justify-content: space-between;
+    padding:  12px 14px 12px 20px;
+}
+
+.home {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.search {
+    flex: 1;
+    margin-left: 80px;
+    max-width: 600px;
+    margin-right: 100px;
+}
+
+.search-bar {
+    padding: 10px 24px;
+    border-radius: 20px;
+    border: none;
+    width: 100%;
+}
+
+.dowload {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 8px 15px;
+}
