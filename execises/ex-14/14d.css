@@ -1,0 +1,52 @@
+body {
+    height: 3000px;
+}
+
+.sidebar {
+    color: white;
+    background-color: green;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background-color: white;
+    font-family: Arial;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.close-button {
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid;
+    font-size: 16px;
+}

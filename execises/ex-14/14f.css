@@ -1,0 +1,59 @@
+body {
+    height: 3000px;
+}
+
+div {
+    font-family: Arial;
+}
+
+.navigation-bar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.channels {
+    background-color: rgb(33, 33, 33);
+    padding: 15px 15px;
+    width: 50px;
+}
+.channel {
+    margin-bottom: 5px;
+}
+
+.channel-profile-picture {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.channel-hashtags {
+    background-color: rgb(55, 55, 55);
+    padding: 15px 20px;
+    width: 150px;
+}
+
+.info-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.info{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+.addition-sign {
+    color: rgb(150, 150, 150);
+    font-size: 30px;
+}
+.hashtag {
+    color: rgb(150, 150, 150);
+    margin-bottom: 15px;
+}
