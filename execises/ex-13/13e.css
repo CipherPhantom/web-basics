@@ -1,0 +1,73 @@
+div {
+    font-family: Arial;
+    font-size: 18px; 
+}
+
+.tweet {
+    display: flex;
+}
+
+.picture-column {
+    margin-right: 20px;
+}
+
+.profile-picture {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.tweet {
+    width: 480px;
+}
+
+.tweet-info {
+    margin-top: 3px;
+}
+.username {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.tweet-text {
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.twitter-handle {
+    color: grey;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.tweet-text {
+    margin-bottom: 15px;
+}
+
+.link-row {
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+    border-left-width: 0;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.link-preview {
+    height: 110px;
+    width: 180px;
+    background-color: gray;
+    margin-right: 15px;
+    margin-left: -1px;
+}
+
+.link {
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.link-description {
+    line-height: 25px;
+}

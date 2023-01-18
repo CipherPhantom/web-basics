@@ -1,0 +1,30 @@
+.flexbox {
+    display: flex;
+}
+
+.div1, .div2 {
+    height: 50px;
+}
+
+.div1 {
+    width: 100px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.div2 {
+    width: 200px;
+    background-color: lightpink;
+}
+
+.nested-flexbox {
+    display: flex;
+    justify-content: space-between ;
+}
+
+.row2 {
+    color: white;
+    background-color: black;
+}
